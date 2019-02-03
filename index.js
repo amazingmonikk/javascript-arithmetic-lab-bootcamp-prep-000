@@ -25,9 +25,6 @@ function makeInt('n', 10) {
   return n;
   
 }
-function makeInt(n) {
-  
-}
   
 function parseFloat() {
   
