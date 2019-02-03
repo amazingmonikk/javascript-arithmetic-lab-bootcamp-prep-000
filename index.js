@@ -32,10 +32,6 @@ function makeInt(n, base) {
   return parsed;
 }
   
-function parseFloat(n) {
-  var parsed = parseInt(n);
-  return parsed;
-} 
  if(isNaN(parseInt(n))){
         
         return false;
