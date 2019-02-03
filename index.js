@@ -34,5 +34,5 @@ function makeInt(n, base) {
   
 function preserveDecimal(n) {
   var parsed = parseInt(n);
-  
+  return parsed;
 }
