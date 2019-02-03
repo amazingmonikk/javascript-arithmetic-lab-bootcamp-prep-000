@@ -36,5 +36,11 @@ function parseFloat(n) {
   var parsed = parseInt(n);
   return parsed;
 } 
-  
+ if(isNaN(parseInt(n))){
+        
+        return false;
+    } else {
+    return true;
+
+    } 
 
