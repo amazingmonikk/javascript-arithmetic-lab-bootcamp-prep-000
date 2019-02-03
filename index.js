@@ -32,4 +32,7 @@ function makeInt(n, base) {
   return parsed;
 }
   
-function 
+function preserveDecimal(n) {
+  var parsed = parseInt(n);
+  
+}
