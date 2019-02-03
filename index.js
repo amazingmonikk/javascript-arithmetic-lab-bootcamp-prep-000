@@ -19,7 +19,7 @@ function divide(a,b) {
 
 
 function inc(n) {
-  return n +1 ;
+  return n + 1 ;
 }
 
 
@@ -27,10 +27,12 @@ function dec(n) {
   return n - 1;
 }
 
+
 function makeInt(n, base) {
   var parsed = parseInt(n, 10);
   return parsed;
 }
+ 
   
 function preserveDecimal(n) {
   var parsed = parseFloat(n);
