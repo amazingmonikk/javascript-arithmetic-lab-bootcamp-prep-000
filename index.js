@@ -22,6 +22,7 @@ function dec(n) {
   return n - 1;
 }
 function makeInt(a, 10) {
+  
   return makeInt(a.toString())).toEqual(a);
   
 }
