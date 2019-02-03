@@ -21,9 +21,10 @@ function inc(n) {
 function dec(n) {
   return n - 1;
 }
-function makeInt(a, 10) {
+function makeInt(a, base) {
   var parsed = parseInt(a, base);
-  return makeInt(a.toString())).toEqual(a);
+  return parsed;
+
   
 }
   
