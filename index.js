@@ -32,11 +32,3 @@ function makeInt(n, base) {
   return parsed;
 }
   
- if NaN(parseInt(n)){
-        
-        return false;
-    } else {
-    return true;
-
-    } 
-
